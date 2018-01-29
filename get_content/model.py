@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from peewee import *
 
-db = MySQLDatabase(database="pachong", host="192.168.0.114", port=3306, user="root", passwd="fit123456",
+db = MySQLDatabase(database="mysql", host="120.77.149.105", port=3306, user="root", passwd="1991311",
                    charset="utf8")
 db.connect()
 
@@ -23,3 +23,5 @@ class longhubang(Model):
 
     class Meta:
         database = db
+
+db.create_tables([longhubang])

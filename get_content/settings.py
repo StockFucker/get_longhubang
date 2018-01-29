@@ -21,7 +21,7 @@ DEFAULT_REQUEST_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
 
 }
-DOWNLOAD_DELAY = 1
+DOWNLOAD_DELAY = 0.1
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'get_content (+http://www.yourdomain.com)'
 
